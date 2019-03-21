@@ -1,0 +1,312 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: peachpuff;
+  padding: 1em 0;
+  text-align: center;
+}
+
+body {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1024px;
+  font-family: 'Titillium Web', sans-serif;
+  color: black;
+  background-color: peachpuff;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin: 1.25em 0 0;
+}
+
+ul {
+  padding: 0;
+  width: 90%;
+  display: inline-block;
+  margin-top: 1em;
+}
+
+li {
+  list-style: none;
+  margin: .5em;
+  padding: .75em;
+  font-size: 1.2em;
+}
+
+main {
+  vertical-align: top;
+  width: auto;
+  background: white;
+  padding-top: .5em;
+}
+
+footer {
+  background: peachpuff;
+  padding: 1em 0;
+  border-top: solid 1px black;
+  margin: 0 2em;
+}
+
+a {
+  text-decoration: none;
+  background-color: peachpuff;
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+p {
+  width: 80%;
+  display: inline-block;
+  line-height: 1.5em;
+}
+
+span {
+  font-weight: bold;
+  margin-left: 1em;
+}
+
+.profile-pic {
+  width: 100%;
+  box-shadow: 5px 5px  5px rgba(0,0,0,0.2);
+}
+
+.image {
+  width: 90%;
+}
+
+.portfolio {
+  margin: 1.5em 0;
+}
+
+.contact {
+  background: peachpuff;
+  padding: 2em 0 0;
+}
+
+.project-info {
+  margin-bottom: 2em;
+}
+
+.skills-list {
+  line-height: .5em;
+}
+
+.footer-link {
+  display: none;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-name {
+  float: left;
+}
+
+.back-to-top {
+  float: right;
+}
+
+
+
+@media (min-width: 768px) {
+
+  .main-nav {
+    margin: 2.5em;
+    background-color: peachpuff;
+  }
+
+  a {
+    background-color: peachpuff;
+  }
+
+  li {
+    display: inline;
+    background-color: peachpuff;
+    margin: 1em;
+  }
+
+  main {
+    background: white;
+    padding-top: .5em;
+  }
+
+  .profile-pic {
+    float: right;
+    width: 40%;
+    margin-right: 2em;
+    margin-bottom: 2em;
+  }
+
+  .intro {
+    float: left;
+    width: 50%;
+    font-size: 1.25em;
+    font-weight: lighter;
+    margin-left: 1.5em;
+  }
+
+  .market {
+    float: left;
+    width: 50%;
+  }
+
+  .search {
+    float: right;
+    width: 50%;
+  }
+
+  .row-one {
+    width: 50%;
+    height: 50%;
+  }
+
+  .travel {
+    float: left;
+    width: 50%;
+  }
+
+  .map {
+    float: right;
+    width: 50%;
+  }
+
+  .row-two {
+    width: 50%;
+    height: 50%;
+  }
+
+  .photo {
+    float: left;
+    width: 50%;
+  }
+
+  .calc {
+    float: right;
+    width: 50%;
+  }
+
+  .row-three {
+    width: 50%;
+    height: 50%;
+  }
+
+  .skills {
+    margin: 0 0 1em 0;
+    clear: both;
+  }
+
+  .skills-list li {
+    background: white;
+    margin-right: 1em;
+    padding: 0;
+  }
+
+  .back-to-top {
+    display: none;
+  }
+
+  .footer-link {
+    display: inline-block;
+    float: right;
+    margin-left: 1em;
+  }
+
+  .footer-name {
+    float: left;
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+
+  nav {
+    display: inline-block;
+    width: 35%;
+    margin-left: 6em;
+  }
+
+  h4 {
+    font-size: .9em;
+  }
+
+  footer {
+    margin: 0 4em;
+  }
+
+  main {
+    background: white;
+    margin: 0 2em;
+    padding-top: .25em;
+  }
+
+  .intro {
+    font-size: 1.5em;
+  }
+
+  .page-title {
+    display: inline-block;
+    width: 35%;
+    margin-right: 6em;
+    margin-left: -5em;
+  }
+
+  .main-nav {
+    margin-right: -10em;
+  }
+
+  .main-nav li {
+    display: inline-block;
+    margin: 0 1em 0 0;
+    padding: 0;
+  }
+
+  .row-a {
+    float: left;
+    width: 33.3%;
+  }
+
+  .row-b {
+    float: left;
+    width: 33.3%;
+  }
+
+  .contact {
+    font-size: 1.25em;
+  }
+
+  .skills-list li {
+    background: white;
+  }
+
+  #contact {
+    font-size: 1em;
+  }
+
+  .footer-name {
+    float: left;
+    padding-right: 23em;
+  }
+
+  .footer-link {
+    margin-right: 0;
+  }
+
+  .portfolio {
+    margin: 2em 0;
+  }
+
+}
